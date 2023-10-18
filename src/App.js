@@ -1,5 +1,5 @@
 import React from 'react';
-import { TimeProvider, TimeContext } from './TimeContext'/;
+import { TimeProvider, TimeContext } from './TimeContext';
 import './style.scss';
 import Stopwatch from './StopWatch';
 

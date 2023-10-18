@@ -1,6 +1,6 @@
 import React from 'react';
 import { TimeProvider, TimeContext } from './TimeContext';
-import './style.scss';
+import './style.css';
 import Stopwatch from './StopWatch';
 
 const App = () =>{

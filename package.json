@@ -1,32 +1,23 @@
 {
   "name": "ramadan-recipe-app",
   "version": "1.0.0",
-  "description": "Explore delicious Ramadan recipes with videos and tutorials. Discover a variety of mouthwatering dishes for your Iftar and Suhoor meals. Find cooking inspiration for the holy month.",
-  "private": true,
+  "description": "A React recipe application",
+  "main": "index.js",
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "build": "react-scripts build"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3"
   },
-  "devDependencies": {
-    "react-scripts": "latest"
+  "devDependencies": { "@babel/plugin-proposal-private-property-in-object": "^1.0.6"
   },
-  "keywords": ["Ramadan", "Recipe", "Cooking", "Food", "Iftar", "Suhoor"],
-  "author": "Dev Nasfam",
-  "homepage": "https://nasfam-recipe.vercel.app/",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/devnasfam/nasfam-recipe.git"
-  },
-  "license": "MIT",
-  "meta": {
-    "viewport": "width=device-width, initial-scale=1.0, user-scalable=no",
-    "robots": "index, follow",
-    "theme-color": "#ffffff"
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   }
 }

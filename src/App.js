@@ -10,4 +10,4 @@ const App = () =>{
        </TimeProvider>
     );
 }
-expor default App;
+export default App;
